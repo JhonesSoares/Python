@@ -1,0 +1,12 @@
+BANCO DE DADOS EM PYTHON
+
+Banco de dados são usados para armazenar, manter e acessar dados sobre pessoas lugares, ou coisas.
+
+Sistemas de gerênciamento, tais como Oracle e PosgreSQL, permitem que o usuário interaja com os dados armazenados no banco de dados.
+
+O python consegue acessar e manipular banco de dados atraves de um recurso  muito especial. O OBJECT CURSOR
+
+O OBJECT CURSOR é um objeto que intermedia a relação entre o sistema de gerenciamentos de banco de dados e o python.
+O cursor é criado logo após o estabelecimento da conexão com o banco de dados.
+É ele que permite que o python execute comandos SQL dentro do bancos de dados e também acessa os resultados desses comandos. 
+

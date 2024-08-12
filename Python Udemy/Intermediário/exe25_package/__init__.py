@@ -1,0 +1,1 @@
+from exe25_package.modulo import *
