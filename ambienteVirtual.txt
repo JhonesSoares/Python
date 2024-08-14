@@ -1,0 +1,57 @@
+# Ambientes virtuais em Python (venv)
+# Um ambiente virtual carrega toda a sua instalação
+# do Python para uma pasta no caminho escolhido.
+# Ao ativar um ambiente virtual, a instalação do
+# ambiente virtual será usada.
+# venv é o módulo que vamos usar para
+# criar ambientes virtuais.
+# Você pode dar o nome que preferir para um
+# ambiente virtual, mas os mais comuns são:
+# venv env .venv .env
+
+ Você pode dar o nome que preferir para um
+ ambiente virtual, mas os mais comuns são:
+ venv env .venv .env
+
+ Como criar ambientes virtuais:
+
+ Abra a pasta do seu projeto no terminal e digite:
+ Powershell: python -m venv venv
+
+
+ATIVANDO AMBIENTE VIRTUAL:
+Powershell:  \Users\jhone\OneDrive\Documentos\GitHub\Python\venv\Scripts\activate
+
+SE ESTIVER NA PASTA:
+Porwershell: .\venv\Scripts\activate 
+
+PARA DESATIVAR:
+Porwershell: deactivate 
+
+QUANDO O AMBIENTE NÃO ESTÁ ATIVO O CAMINHO DO PYTHON É " C:\Python312\python.exe "
+
+QUANDO ESTÁ ATIVADO O CAMINHO DO PYTHON É O DO AMBIENTE VIRTUAL "VENV" QUE É " C:\Users\jhone\OneDrive\Documentos\GitHub\Python\venv\Scripts\python.exe "
+
+
+
+NO MAC E NO LINUX:
+Trminal: . venv/bin/activate
+
+
+COMANDO GCM:
+Terminal: gcm python.exe -Syntax
+
+INSTALANDO PACOTES:
+terminal: pip install pymysql
+
+DESINSTALANDO:
+Terminal: pip unistall pymysql -y 
+
+ATUALIZAÇÃO DO PIP:
+Terminal: python.exe -m pip install --upgrade pip
+          pip install pip --upgrade
+          python -m pip install --upgrade pip
+
+
+COMANDO FREEZE PARA SABER O QUE ESTÁ INSTALADO:
+Terminal: pip freeze
