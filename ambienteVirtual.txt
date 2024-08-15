@@ -53,5 +53,16 @@ Terminal: python.exe -m pip install --upgrade pip
           python -m pip install --upgrade pip
 
 
+
+
+
+
 COMANDO FREEZE PARA SABER O QUE ESTÁ INSTALADO:
 Terminal: pip freeze
+
+RECRIAR AMBIENTE VIRTUAL COM REQUIREMENTS.TXT PARA NÃO ENVIAR O AMBIENTE VIRTUAL PARA O REPOSITÓRIO (VENV), :
+CRIANDO O REQUIRE, COM AS INTALAÇÕES DE PACOTES DE UM DETERMINADO PROJETO :
+terminal: pip freeze > requirements.txt
+
+COM O REQUIRE CRIADO, AGORA É INSTALAR OS PACOTES NO NOVO AMBIENTE VIRTUAL:
+Terminal: pip install -r .\requirements.txt 
