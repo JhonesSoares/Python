@@ -29,3 +29,4 @@ with open('exe38.json', 'r', encoding='utf8') as arquivo: # LENDO ARQUIVO JSON
     # print(pessoa)
     # print(type(pessoa))
     #print(pessoa['nome'])
+    print('jhones')
