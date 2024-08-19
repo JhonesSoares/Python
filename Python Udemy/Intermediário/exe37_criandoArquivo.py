@@ -26,8 +26,8 @@ caminho_arquivo = 'C:\\Users\\jhone\\OneDrive\\Documentos\\GitHub\\Python\\Pytho
 # #
 # arquivo.close()
 
-with open(caminho_arquivo, 'w+') as arquivo:
-    arquivo.write('Linha 1\n')
+with open(caminho_arquivo, 'w+', encoding='utf8') as arquivo:
+    arquivo.write('Atenção\n')
     arquivo.write('Linha 2\n')
     arquivo.writelines(    # varias linhas
         ('linha 3\n', 'linha 4\n')
