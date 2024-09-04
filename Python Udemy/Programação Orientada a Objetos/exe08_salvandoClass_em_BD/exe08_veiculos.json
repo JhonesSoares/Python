@@ -1,0 +1,30 @@
+[
+  {
+    "veiculo": "Carro",
+    "marca": "Ford",
+    "nome": "Raptore",
+    "cor": "Preto",
+    "ano": 2023
+  },
+  {
+    "veiculo": "Moto",
+    "marca": "Royal Enfield",
+    "nome": "Meteor",
+    "cor": "Preto fosco",
+    "ano": 2024
+  },
+  {
+    "veiculo": "Caminhão",
+    "marca": "Iveco",
+    "nome": "Baú",
+    "cor": "Branco",
+    "ano": 2018
+  },
+  {
+    "veiculo": "Ônibus",
+    "marca": "Mercedes",
+    "nome": "Convencional",
+    "cor": "Vermelho",
+    "ano": 2019
+  }
+]
