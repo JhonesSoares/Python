@@ -1,11 +1,9 @@
 def main():
         
-    def cpf_usuário():    
+    def cpf_usuario():    
         import re
 
-        cpf_informado = input('Digite seu CPF para validação: ')\
-             .replace('.', '')\
-             .replace('-', '')
+        cpf_informado = input('Digite seu CPF para validação: ').replace('.', '').replace('-', '')
         
         def validar_input(valor): # Verifica se o valor é uma string
             if not isinstance(valor, str):
@@ -23,14 +21,14 @@ def main():
             return cpf_informado
         else:
             print("CPF incorreto!")
-            return cpf_usuário()
+            return cpf_usuario()
 
 
-    cpf_enviado_pelo_usuario = str(cpf_usuário())
+    CPF_USUARIO = str(cpf_usuario())
 
 
     def primeiro_digito():
-        cpf = cpf_enviado_pelo_usuario
+        cpf = CPF_USUARIO
         nove_digitos = cpf[:9]; #print(nove_digitos)
         contador_regressivo_1 = 10
         resultado_1 = 0
@@ -46,7 +44,7 @@ def main():
 
 
     def segundo_digito():
-        cpf = cpf_enviado_pelo_usuario
+        cpf = CPF_USUARIO
         dez_digitos = cpf[:9] + primeiro_digito()
         contador_regressivo_2 = 11
         resultado_2 = 0
@@ -61,19 +59,15 @@ def main():
         return str(digito_2)
 
     def validando_cpf_usuario():
-        cpf = cpf_enviado_pelo_usuario; #print(cpf)
+        cpf = CPF_USUARIO; #print(cpf)
         nove_digitos = cpf[:9]
 
         cpf_gerado_pelo_calculo = f'{nove_digitos}{primeiro_digito()}{segundo_digito()}'
 
-        if cpf_enviado_pelo_usuario == cpf_gerado_pelo_calculo:
-            print(f'{cpf_enviado_pelo_usuario} é válido')
+        if CPF_USUARIO == cpf_gerado_pelo_calculo:
+            print(f'{CPF_USUARIO} é válido')
         else:
             print(f'CPF inválido!')
-
-
-
-
 
     validando_cpf_usuario()
 main()
