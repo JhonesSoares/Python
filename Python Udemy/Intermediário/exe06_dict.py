@@ -30,10 +30,18 @@ pessoa = {
         {'rua': 'tal tal', 'número': 123},
         {'rua': 'outra rua', 'número': 321},
     ],
+    'nome': 'jhones',
+    'sobrenome': 'soares',
+    'idade': 30,
+    'altura': 18,
+    'endereços': [
+        {'rua': 'tal tal', 'número': 123},
+        {'rua': 'outra rua', 'número': 321},
+    ]
 }
 # print(pessoa, type(pessoa))
-print(pessoa['nome'])
-print(pessoa['sobrenome'])
+print(pessoa[:1]['nome'])
+print(pessoa[:1]['sobrenome'])
 
 print()
 
