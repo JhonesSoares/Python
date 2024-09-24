@@ -2,17 +2,14 @@
 # List comprehension é uma forma rápida para criar listas
 # a partir de iteráveis.
 # print(list(range(10)))
-lista = []
+lista_1 = []
 for numero in range(10):
-    lista.append(numero)
-# print(lista)
+    lista_1.append(numero)
+print(lista_1)
 
-lista = [
-    numero * 2
-    for numero in range(10)
-]
+lista_2 = [numero * 2 for numero in range(10)]
 # print(list(range(10)))
-# print(lista)
+print(lista_2)
 
 # Mapeamento de dados em list comprehension
 produtos = [
@@ -26,7 +23,7 @@ novos_produtos = [
     for produto in produtos
 ]
 # print(novos_produtos)
-print(*novos_produtos, sep='\n')
+#print(*novos_produtos, sep='\n')
 
 
 
@@ -37,4 +34,4 @@ novos_produtos = [
     for produto in produtos
     if (produto['preco'] >= 20 and produto['preco'] * 1.05) > 10
 ]
-print(novos_produtos)
+#print(novos_produtos)
