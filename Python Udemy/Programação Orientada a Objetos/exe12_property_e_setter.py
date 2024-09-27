@@ -29,7 +29,6 @@ class Caneta:
         self.__cor_tampa = valor
 
 
-
 caneta = Caneta('Azul')
 caneta.cor = 'Laranjado'
 caneta.cor_tampa = 'Vermelho'
