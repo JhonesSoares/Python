@@ -1,0 +1,3 @@
+Success: Funcionando perfeitamente., (LogFileMixin)
+Error: Salvando erros no arivos., (LogFileMixin)
+Success: Funcionando perfeitamente., (LogFileMixin)
