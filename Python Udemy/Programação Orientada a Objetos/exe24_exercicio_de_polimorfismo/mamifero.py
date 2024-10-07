@@ -33,11 +33,34 @@ class Cachorro(Mamifero):
     def enterrar_osso(self):
         print(f'Enterrando o osso.')
 
-    def abanar_rabo(self):
-        print('Ábanando o rabo.')
-
-    def emitir_som(self):
-        print(f'Cachorro está latindo')            
+    def reagir(self, frase):
+        if int(frase) == 'comida' or int(frase) == 'olá':
+            return f'Abanar e latir'
+        return f'Rosnar'
+    
+    def reagir(self, hora, min):
+        if int(hora) < 12:
+            return 'Abanar'
+        if int(hora) > 18:
+            return 'Ignorar'
+        else:
+            return 'Abanar e latir'
+        
+    def reagir(self, dono):
+        if dono:
+            return 'Abanar'
+        return 'Rosnar e latir'
+    
+    def reagir(self, idade, peso):
+        if int(idade) < 5:
+            if int(peso) < 10:
+                return 'Abanar'
+            return 'Latir'
+        else:
+            if int(peso) > 10:
+                return 'Rosnar'
+            return 'Ignorar'    
+                    
 
 
 if __name__ == '__main__':
