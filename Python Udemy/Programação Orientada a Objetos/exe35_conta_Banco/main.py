@@ -1,6 +1,3 @@
-
-import conta, pessoa, banco
-
 """
 Exercício com Abstração, Herança, Encapsulamento e Polimorfismo
 Criar um sistema bancário (extremamente simples) que tem clientes, contas e
@@ -34,5 +31,3 @@ Banco será responsável autenticar o cliente e as contas da seguinte maneira:
 Só será possível sacar se passar na autenticação do banco (descrita acima)
 Banco autentica por um método.
 """
-
-
